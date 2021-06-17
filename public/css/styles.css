@@ -13,12 +13,12 @@ Esquema de cores modern
 
 body {
     background-color: var(--gray);
-    width: 1200px;
+    
 }
 
 .header__menu {
     width: 900px;
-    height: 50px;
-    margin: 50px auto;
+    height: 200px;
+    margin: 0 auto;
     background-color: var(--navy-blue);
 }
