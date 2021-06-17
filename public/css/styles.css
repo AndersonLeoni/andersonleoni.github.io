@@ -11,14 +11,9 @@ Esquema de cores modern
     --ice-gray: #798F9D;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
 body {
     background-color: var(--gray);
+    width: 1200px;
 }
 
 .header__menu {
