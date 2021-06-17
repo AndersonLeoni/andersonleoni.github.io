@@ -20,3 +20,9 @@ Esquema de cores modern
 body {
     background-color: var(--gray);
 }
+
+.header__menu {
+    max-width: 900px;
+    height: 50px;
+    margin: 0 auto;
+}
