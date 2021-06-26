@@ -20,4 +20,19 @@ body {
     padding: 32px;
     border-bottom: 1px solid #333;
     background: rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.header__menu a {
+    color: var(--ice-gray);
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 1.5em;
+    line-height: 28px;
+    margin: 0 16px;
+}
+
+.header__menu a:hover {
+    color: var(--blue);
+    transition:  color 700ms;
 }
