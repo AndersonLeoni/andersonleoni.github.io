@@ -16,6 +16,7 @@ body {
     
 }
 
+/* Configuração do menu */
 .header__menu {
     padding: 32px;
     border-bottom: 1px solid #333;
@@ -35,4 +36,26 @@ body {
 .header__menu a:hover {
     color: var(--blue);
     transition:  color 700ms;
+}
+
+/* Configuração titulo sobre */
+
+.about h1 {
+    margin: 30px auto;
+    font-size: 2em;
+    color: var(--blue);
+    text-align: center;
+}
+
+.profile__card {
+    margin: 0 auto;
+    width: 960px;
+    text-align: center;
+}
+
+.profile__card img {
+    width: 300px;
+    border-radius: 15px;
+    margin: 30px auto;
+    border: 3px solid var(--light-gray);
 }
